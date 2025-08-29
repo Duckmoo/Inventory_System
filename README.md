@@ -20,6 +20,7 @@ A) Using the Release Version:
 1. Extract Release.zip into a folder.
 2. Ensure that Inventory.txt is in the same folder as the binary/exe file.
 3. Run the program:
+   
   Linux/macOS:
   ------------
   Open the terminal in the Release folder and execute:
@@ -37,6 +38,7 @@ B) Compiling from Source.zip (if Release binary is not compatible):
   - Windows: MinGW or MVSC
 3. Open a terminal/command prompt in the source folder.
 4. Compile the program using:
+
   Linux/macOS:
   ------------
   g++ main.cpp cInventory.cpp cInventoryIO.cpp eItemType.cpp -o inventory
@@ -47,6 +49,7 @@ B) Compiling from Source.zip (if Release binary is not compatible):
 
 5. After compilation, ensure Inventory.txt is in the same folder as the binary/exe.
 6. Run the program:
+
   Linux/macOS:
   ------------
   ./inventory
